@@ -7,7 +7,7 @@ The Indoor Plant Care project aims to utilize temperature and humidity data for 
 The project involves an Arduino Uno connected to a DHT11 sensor, communicating data via serial communication to a Rock Pi 4 SE running a Python script sending data every 5 seconds. The AWS IoT ecosystem, comprising MQTT Broker, Rules Engine, IAM Roles, DynamoDB, IoT Analytics, and QuickSight forms the cloud infrastructure.
 
 ## Architecture
-!(res/Architecture.png)
+![Architecture](res/Architecture.png)
 
 ## Data Flow and Analysis
 Sensor data collected by the Arduino is transmitted to the Rock Pi 4 SE, published to specific MQTT topics, processed through AWS IoT Rules, and stored in DynamoDB. IoT Analytics can further analyze this data to derive insights for better decisions or visualization.
