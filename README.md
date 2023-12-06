@@ -28,3 +28,6 @@ Adaptation of network segmentation could be a consideration to seperate IoT devi
 
 ## Scalability
 The architecture composed of Arduino Uno, DHT11 sensor, and the Rock Pi 4 SE might not be a well suited setup for scaling due to the vast processing power for such small computations. Using other microcontrollers with capabilities to directly communicate with AWS would be better suited for scaling to multiple devices and also automating the setup processes would help with that. In the current form every single device need to be manually configured and integrated with AWS.
+
+## Dashboard
+![Dashboard](res/Dashboard.png)
